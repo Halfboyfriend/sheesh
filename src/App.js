@@ -18,11 +18,9 @@ function App() {
           </div>
         }
       >
-        <UserContextProvider> 
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-        </UserContextProvider>
       </Suspense>
     </Router>
   );
